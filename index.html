@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bom Dom</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <style>
+        .sty{
+            height: 90px;
+            width: 90px;
+            background-color: aqua;
+        }
+    </style>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <form>
+
+        <div>
+            <input type="text" name="title" placeholder="title" id="input1"> 
+        </div>
+        <div>
+             <!-- <input type="textarea" name="note" placeholder="note" id="input2"> -->
+             <textarea type="text" id="input3" placeholder="note"></textarea>
+        </div><br>
+        <input type="button" value="AdddNote"onclick="addNote()" class="btn"></input>
+
+    </form>
+    <p id="res"></p>
+
+</body>
+</html>
